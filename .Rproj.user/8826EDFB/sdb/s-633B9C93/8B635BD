@@ -1,12 +1,12 @@
 {
-    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nshinyServer(function(input, output) {\n\n\n})\n",
+    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nshinyServer(function(input, output) {\n\n  output$oid1 <- renderPrint({input$id1})\n  output$oid2 <- renderPrint({input$id2})\n  output$odate <- renderPrint({input$date})\n})\n",
     "created" : 1418963619176.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1560085992",
+    "hash" : "3628368557",
     "id" : "8B635BD",
-    "lastKnownWriteTime" : 1418963810,
+    "lastKnownWriteTime" : 1418965584,
     "path" : "~/first_app/server.R",
     "project_path" : "server.R",
     "properties" : {
