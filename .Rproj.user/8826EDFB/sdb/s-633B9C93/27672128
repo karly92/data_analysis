@@ -1,12 +1,12 @@
 {
-    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\nshinyUI(pageWithSidebar(\n  headerPanel(\"Data science FTW!\"),\n  sidebarPanel(\n    h3('Sidebar text')\n  ),\n  mainPanel(\n    h3('Main Panel text')\n    )\n  ))\n\n\n",
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\nshinyUI(pageWithSidebar(\n  headerPanel(\"Illustrating markup\"),\n  sidebarPanel(\n    h3('Sidebar panel'),\n    h1('H1 text'),\n    h2('H2 Text'),\n    h3('H3 Text'),\n    h4('H4 Text')\n  ),\n  mainPanel(\n    h3('Main Panel text'),\n    code('some code'),\n    p('some ordinary text')\n    )\n  ))\n\n\n",
     "created" : 1418963618979.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3361131915",
+    "hash" : "2444522954",
     "id" : "27672128",
-    "lastKnownWriteTime" : 1418963852,
+    "lastKnownWriteTime" : 1418964387,
     "path" : "~/first_app/ui.R",
     "project_path" : "ui.R",
     "properties" : {
